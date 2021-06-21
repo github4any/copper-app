@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app0:
+    image: copper.co/app:0.0.1
+    hostname: app
+    environment:
+      - APP_MANAGEMENT_HTTP_PORT=7000
+    ports:
+      - target: 7000
+        published: 8000
+        protocol: tcp
+        mode: host
+    deploy:
+      replicas: 1
+      endpoint_mode: dnsrr
+      restart_policy:
+        condition: any
+        delay: 5s

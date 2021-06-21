@@ -1,0 +1,96 @@
+18:59:38.636 [SIGTERM handler] WARN  co.copper.app.App - SIGTERM
+18:59:38.664 [SIGTERM handler] WARN  co.copper.app.App - Shutdown 0
+18:59:38.666 [main] WARN  co.copper.app.App - Stopping...
+18:59:38.669 [main] WARN  co.copper.app.App - Stopped
+19:00:31.776 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+19:00:31.779 [main] INFO  co.copper.app.App - Starting...
+19:00:31.782 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+19:00:32.003 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+19:00:32.005 [main] INFO  co.copper.app.App - Started
+19:00:56.844 [XNIO-1 task-1] INFO  co.copper.app.App - Address: 2
+19:00:57.496 [XNIO-1 task-1] ERROR co.copper.app.App - Unexpected transaction error
+co.copper.app.exception.APIException: {"error":"not-found-or-invalid-arg","message":"Item not found or argument invalid"}
+	at co.copper.app.util.HttpClient.openURL(HttpClient.java:110)
+	at co.copper.app.util.HttpClient.get(HttpClient.java:50)
+	at co.copper.app.BlockExplorer.getAddress(BlockExplorer.java:122)
+	at co.copper.app.BlockExplorer.getAddress(BlockExplorer.java:136)
+	at co.copper.app.App.transactionPostHandler(App.java:170)
+	at co.copper.app.mon.ManagementHttpServer.lambda$4(ManagementHttpServer.java:131)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+19:01:28.472 [XNIO-1 task-1] INFO  co.copper.app.App - Address: 1JzSZFs2DQke2B3S4pBxaNaMzzVZaG4Cqh
+19:01:48.861 [SIGTERM handler] WARN  co.copper.app.App - SIGTERM
+19:01:48.861 [SIGTERM handler] WARN  co.copper.app.App - Shutdown 0
+19:01:48.861 [main] WARN  co.copper.app.App - Stopping...
+19:01:48.863 [main] WARN  co.copper.app.App - Stopped
+19:03:28.316 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+19:03:28.319 [main] INFO  co.copper.app.App - Starting...
+19:03:28.322 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+19:03:28.525 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+19:03:28.526 [main] INFO  co.copper.app.App - Started
+19:05:51.910 [SIGTERM handler] WARN  co.copper.app.App - SIGTERM
+19:05:51.910 [SIGTERM handler] WARN  co.copper.app.App - Shutdown 0
+19:05:51.911 [main] WARN  co.copper.app.App - Stopping...
+19:05:51.912 [main] WARN  co.copper.app.App - Stopped
+19:06:10.432 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+19:06:10.435 [main] INFO  co.copper.app.App - Starting...
+19:06:10.439 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+19:06:10.635 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+19:06:10.637 [main] INFO  co.copper.app.App - Started
+19:06:14.771 [XNIO-1 task-1] INFO  co.copper.app.App - Address: 1JzSZFs2DQke2B3S4pBxaNaMzzVZaG4Cqh
+19:06:27.723 [XNIO-1 task-1] INFO  co.copper.app.App - Address: 1JzSZFs2DQke2B3S4pBxaNaMzzVZaG4Cqh
+19:06:32.270 [SIGTERM handler] WARN  co.copper.app.App - SIGTERM
+19:06:32.270 [SIGTERM handler] WARN  co.copper.app.App - Shutdown 0
+19:06:32.270 [main] WARN  co.copper.app.App - Stopping...
+19:06:32.272 [main] WARN  co.copper.app.App - Stopped
+19:06:48.931 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+19:06:48.937 [main] INFO  co.copper.app.App - Starting...
+19:06:48.946 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+19:06:49.203 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+19:06:49.208 [main] INFO  co.copper.app.App - Started
+19:07:12.628 [XNIO-1 task-1] INFO  co.copper.app.App - Address: 1JzSZFs2DQke2B3S4pBxaNaMzzVZaG4Cqh
+19:25:43.588 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+19:25:43.593 [main] INFO  co.copper.app.App - Starting...
+19:25:43.603 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+19:25:43.882 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+19:25:43.886 [main] INFO  co.copper.app.App - Started
+20:37:54.686 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+20:37:54.692 [main] INFO  co.copper.app.App - Starting...
+20:37:54.699 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+20:37:55.007 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+20:37:55.012 [main] INFO  co.copper.app.App - Started
+20:38:30.492 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+20:38:30.499 [main] INFO  co.copper.app.App - Starting...
+20:38:30.507 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+20:38:30.803 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+20:38:30.808 [main] INFO  co.copper.app.App - Started
+20:38:50.617 [XNIO-1 task-1] INFO  co.copper.app.App - Address: 1JzSZFs2DQke2B3S4pBxaNaMzzVZaG4Cqh
+20:54:20.204 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+20:54:20.208 [main] INFO  co.copper.app.App - Starting...
+20:54:20.214 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+20:54:20.472 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+20:54:20.474 [main] INFO  co.copper.app.App - Started
+20:54:33.215 [SIGTERM handler] WARN  co.copper.app.App - SIGTERM
+20:54:33.216 [SIGTERM handler] WARN  co.copper.app.App - Shutdown 0
+20:54:33.216 [main] WARN  co.copper.app.App - Stopping...
+20:54:33.217 [main] WARN  co.copper.app.App - Stopped
+21:22:59.821 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+21:22:59.825 [main] INFO  co.copper.app.App - Starting...
+21:22:59.829 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+21:23:00.075 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+21:23:00.077 [main] INFO  co.copper.app.App - Started
+21:30:29.768 [SIGTERM handler] WARN  co.copper.app.App - SIGTERM
+21:30:29.771 [SIGTERM handler] WARN  co.copper.app.App - Shutdown 0
+21:30:29.771 [main] WARN  co.copper.app.App - Stopping...
+21:30:29.772 [main] WARN  co.copper.app.App - Stopped
+21:35:24.643 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+21:35:24.650 [main] INFO  co.copper.app.App - Starting...
+21:35:24.660 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+21:35:24.938 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+21:35:24.942 [main] INFO  co.copper.app.App - Started
+23:30:03.755 [main] DEBUG co.copper.app.App - Using AppEnvironment [managementHttpPort=8000]
+23:30:03.760 [main] INFO  co.copper.app.App - Starting...
+23:30:03.767 [main] INFO  co.copper.app.mon.ManagementHttpServer - Starting management server...
+23:30:04.013 [main] INFO  co.copper.app.mon.ManagementHttpServer - Started
+23:30:04.016 [main] INFO  co.copper.app.App - Started

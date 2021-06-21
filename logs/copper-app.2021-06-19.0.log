@@ -1,0 +1,4 @@
+18:59:38.572 [SIGTERM handler] WARN  co.copper.app.App - SIGTERM
+18:59:38.594 [SIGTERM handler] WARN  co.copper.app.App - Shutdown 0
+18:59:38.595 [main] WARN  co.copper.app.App - Stopping...
+18:59:38.599 [main] WARN  co.copper.app.App - Stopped
